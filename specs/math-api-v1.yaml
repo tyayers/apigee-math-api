@@ -1,10 +1,10 @@
 openapi: 3.0.0
 info:
-  title: math-api-v1
+  title: Math API
   version: '1.0'
-  description: showcase API with math functions
+  description: This API provides factorial and prime functionalities to clients.
 servers:
-  - url: 'https://emea-poc13-prod.apigee.net/kaleo-math'
+  - url: 'https://test.apigee.theapishop.com/math'
 security:
   - ApiKeyAuth: []
 paths:
