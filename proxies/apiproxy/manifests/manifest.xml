@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Add-origin" version="SHA-512:ca81806e90ef77492af688613aa9fc965842347375cd1f6b5e80a3d6413bb832ddf3156f2537b22907d8bc1d195c178a3812c4e435bd929c3d4ca28c068dea20"/>
+        <VersionInfo resourceName="Extract-Variables-1" version="SHA-512:02c5c729f2ff38e195f4015729ed902366aa74512af98c9ac2523a37f1f5e260a951662b15b2208312c0f0e3e12e4a444534106dd5b8959b838f774a4887ea74"/>
+        <VersionInfo resourceName="Extract-Variables-2" version="SHA-512:1e8bb7b3ff4fab7fcf55223057608391f3bae5d01c397c6dc33c241b5a7b02d731ff653906c995c782aa35f77d1deae649ed97286e8d9c63f499406202d657ba"/>
+        <VersionInfo resourceName="Monetization-Limits-Check-1" version="SHA-512:ed51fb058cf5bb49ab78469e2b55a674c5d238b2fc8fa46d92f50d56bcbe743ce9995d0897fa5ce1d45a56d21fb81da24a4a3d3003790b6c313100bbecf76c6d"/>
+        <VersionInfo resourceName="Set-Result" version="SHA-512:8afe006ff2bd6369ad48c5548b33c9d5a2e9edf892bbabc917be50665f2089ef4cf9d8227ae78d67e4ffd7dde766354f33ba43763d9ab41d4c0e2dae3dbf3c5d"/>
+        <VersionInfo resourceName="factorial" version="SHA-512:f70737a0675978e446832bfef2a206381c8f8c8be165722f1d5c95b5c4adfde18bcbea8edd766377170de92d1b5a74ebbf5ae9e18124ffc025e786f9df6bad7a"/>
+        <VersionInfo resourceName="impose-quota" version="SHA-512:c9fa343c043ee2a736b86ede60733f5c27b63e67d9e337d35098a3379ae00b846762d1d13a873cc436d3faf9c7c8dfebf14daf792cf47ae2c88586651e056f57"/>
+        <VersionInfo resourceName="ping" version="SHA-512:3132a0802ee3291f43a8c9da025b5ccff28ed81890a2f2c374110291c314ce1368ecf7645fc6a06827169dbce27cb21de365e894bf11020e8035ede7e53f8668"/>
+        <VersionInfo resourceName="prime" version="SHA-512:60b835ed21f89e499be3f02858e80c57fa2c50c26f7f086ad63a5691b247e14f97d8ce1deeafb6d211f3a8df1907b24d1a96dd2c2b8139c52bfc392b3b3dd7a0"/>
+        <VersionInfo resourceName="remove-query-param-apikey" version="SHA-512:bebd2e662024f852231175e62f9aa7367aec21aa9ab4541f19e85d7d0f5d8dabe69cd2aea0ef00676549e0e7867693a907b8f661a0a7a4773587fd135a3b5f09"/>
+        <VersionInfo resourceName="verify-api-key" version="SHA-512:6595defb9a0b6d7fce111a9fe959f5e8a7aa03ffb301373c4c4e20e814648b42d5858631e95e4a8d698b5fe2139390c252e9011d9f1be8c3a35de73c1c269f97"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:f14de0f6bd09dc58b8a1c2ac44b4ef6dbb1b131733c6abd549ce9b40a2f49abfc7857ee38d08e8e6f082daf7f93d6429c01b4058f0a924aa69b5a4d36fc9e517"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://factorial.js" version="SHA-512:a4c65231496e892e76b7f7ffdfa84d9178ee9791ea09f1029c5ebd5ad43a6ea400297146725bc927e911cf90194cb0b34bc6bc10e3eed027bd99c8819d349602"/>
+        <VersionInfo resourceName="jsc://ping.js" version="SHA-512:8e9cc5eb4b10bab6b319ee112d0a5d19fc9ca47c158ae83be944ec1413a11cacf529ea5aab4dd54b340ecc1b7079b5f6d6e576b44fbd7a6c7f37c4e266afcea8"/>
+        <VersionInfo resourceName="jsc://prime.js" version="SHA-512:34a19c011bcbd9a7552ecffee0fa5c9674b4436a718ea1b74bad9717c38cfc0e4d909581590497af2412ce8f214b0a08aeb1f1915200e93a9f9aa4517b470b96"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

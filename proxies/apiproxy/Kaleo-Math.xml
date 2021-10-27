@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Kaleo-Math">
+    <Basepaths>/kaleo-math</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1589548889155</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description></Description>
+    <DisplayName>Kaleo-Math</DisplayName>
+    <LastModifiedAt>1604431530248</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
+    <ManifestVersion>SHA-512:b5825fdfca5402fd2d58722729994d12c68dab8539d0db0535ff8a302689b234d5350c0e8b74b25cc32ca68165e74c0126eab05b0eb508e746272489989f85a4</ManifestVersion>
+    <Policies>
+        <Policy>Add-origin</Policy>
+        <Policy>Extract-Variables-1</Policy>
+        <Policy>Extract-Variables-2</Policy>
+        <Policy>Monetization-Limits-Check-1</Policy>
+        <Policy>Set-Result</Policy>
+        <Policy>factorial</Policy>
+        <Policy>impose-quota</Policy>
+        <Policy>ping</Policy>
+        <Policy>prime</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://factorial.js</Resource>
+        <Resource>jsc://ping.js</Resource>
+        <Resource>jsc://prime.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
